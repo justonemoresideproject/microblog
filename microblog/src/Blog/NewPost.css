@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+/* form {
+    background-color: inherit;
+    height:fit-content;
+} */
+
+.titleInput {
+    width: 30vw;
+}
+
+.descriptionInput {
+    width: 30vw;
+    height: 8vh;
+}
+
+.bodyInput {
+    width: 30vw;
+    height: 15vh;
+}
+
+button {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 6rem;
+    height: 2rem;
+
+    color: white;
+
+    border-radius: 9%;
+}
+
+.submitButton {
+    background-color: rgb(3, 14, 37);
+}
+
+.submitButton:hover {
+    background-color: blue;
+}
+
+.cancelButton {
+    background-color: rgb(44, 1, 1);
+}
+
+.cancelButton:hover {
+    background-color: red;
+}
